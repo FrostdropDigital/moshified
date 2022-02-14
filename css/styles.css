@@ -332,11 +332,19 @@ a {
 	color: hsl(0, 0%, 100%);
 }
 
+.card-primary .badge-primary {
+	background: hsl(214, 85%, 48%);
+}
+
 .card-secondary .badge-secondary {
 	background: hsl(189, 100%, 45%);
 }
 
 /* Plans */
+
+.plan {
+	transition: transform 0.2s ease-out;
+}
 
 .plan-name {
 	color: hsl(0, 0%, 100%);
@@ -367,6 +375,10 @@ a {
 	margin-bottom: 2rem;
 }
 
+.plan-popular {
+	transform: scale(1.1);
+}
+
 .plan-popular .card-header {
 	position: relative;
 }
@@ -378,6 +390,14 @@ a {
 	position: absolute;
 	top: -6px;
 	right: 5%;
+}
+
+.plan:hover {
+	transform: scale(1.05);
+}
+
+.plan-popular:hover {
+	transform: scale(1.15);
 }
 
 @media screen and (min-width: 1024px) {
@@ -754,3 +774,11 @@ a {
 
 /* Plans Block */
 
+.block-plans .grid {
+	gap: 8rem 4rem;
+}
+
+.block-plans .card {
+	max-width: 500px;
+	margin: 0 auto;
+}
