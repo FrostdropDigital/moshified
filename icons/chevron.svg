@@ -1,1 +1,6 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51 51"><defs><style>.cls-1{fill:#393939;}.cls-2{fill:#fff;}</style></defs><circle class="cls-1" cx="25.5" cy="25.5" r="25.5"/><rect class="cls-2" x="24.4" y="27.9" width="1.6" height="15.24" rx="0.8" transform="matrix(0.78, -0.63, 0.63, 0.78, -21.26, 15.39)"/><rect class="cls-2" x="33.3" y="27.9" width="1.6" height="15.24" rx="0.8" transform="translate(24 -21.9) rotate(37.3)"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51 51">
+<defs><style>.cls-1{fill:#393939;}.cls-2{fill:#fff;}</style></defs>
+<circle class="cls-1" cx="25.5" cy="25.5" r="25.5"/>
+<rect class="cls-2" x="19.97" y="19.58" width="1.6" height="15.28" rx="0.8" transform="matrix(0.78, -0.63, 0.63, 0.78, -12.49, 19.1)"/>
+<path class="cls-2" d="M34.22,21h0a.8.8,0,0,1,.15,1.12L26.1,32.93a.8.8,0,0,1-1.12.15h0A.8.8,0,0,1,24.83,32L33.1,21.11A.8.8,0,0,1,34.22,21Z"/>
+</svg>

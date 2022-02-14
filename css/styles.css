@@ -528,7 +528,7 @@ a {
 	text-align: center;
 }
 
-.callout-header {
+.callout-heading {
 	color: hsl(0, 0%, 100%);
 	margin-top: 0;
 	font-size: 3rem;
@@ -552,4 +552,37 @@ a {
 		justify-self: start;
 		margin: 0 2rem;
 	}
+}
+
+/* Collapsibles */
+
+.collapsible-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.collapsible-heading {
+	margin-top: 0;
+	font-size: 3rem;
+}
+
+.collapsible-chevron {
+	transform: rotate(-90deg);
+	transition: transform 0.3s;
+}
+
+.collapsible-content {
+	max-height: 0;
+	overflow: hidden;
+	opacity: 0;
+	transition: all 0.3s;
+}
+
+.collapsible-expanded .collapsible-chevron {
+	transform: rotate(0);
+}
+
+.collapsible-expanded .collapsible-content {
+	max-height: 100vh;
+	opacity: 100;
 }
