@@ -12,6 +12,13 @@
 		<title>Moshify - Go Online for Just $9</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			rel="preload"
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+			as="style"
+		/>
+
+		<link rel="preload" href="https://unpkg.com/aos@next/dist/aos.css" as="style" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
 		<link rel="stylesheet" href="css/styles.css" />
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -19,7 +26,9 @@
 	<body>
 		<header>
 			<nav class="nav collapsible">
-				<a aria-label="Moshify" class="nav-brand" href="/"><img src="images/logo.svg" alt="" /></a>
+				<a aria-label="Moshify" class="nav-brand" href="/">
+					<img src="images/logo.svg" alt="M" width="209" height="54" loading="lazy" />
+				</a>
 				<svg class="icon icon-white nav-toggler">
 					<use href="icons/sprite.svg#menu"></use>
 				</svg>
@@ -36,12 +45,12 @@
 				<header class="block-header hero-content">
 					<h1 class="block-heading" data-aos="zoom-in-up">Cloud Hosting for Pros</h1>
 					<p class="hero-tagline">Deploy your websites in less than 60 seconds.</p>
-					<a href="" class="btn btn-accent btn-stretched">Get Started</a>
+					<a href="#" class="btn btn-accent btn-stretched">Get Started</a>
 				</header>
 				<picture data-aos="zoom-in">
 					<source type="image/webp" srcset="images/banner.webp 1x, images/banner@2x.webp 2x" />
 					<source type="image/png" srcset="images/banner.png 1x, images/banner@2x.png 2x" />
-					<img class="hero-image" src="images/banner.png" alt="" />
+					<img class="hero-image" src="images/banner.png" alt="" loading="lazy" />
 				</picture>
 			</div>
 		</section>
@@ -154,7 +163,14 @@
 				<picture data-aos="zoom-in-left">
 					<source type="image/webp" srcset="images/easy.webp 1x, images/easy@2x.webp 2x" />
 					<source type="image/png" srcset="images/easy.png 1x, images/easy@2x.png 2x" />
-					<img class="feature-image" src="images/easy@2x.png" alt="" />
+					<img
+						class="feature-image"
+						src="images/easy@2x.png"
+						width="1140"
+						height="779"
+						alt=""
+						loading="lazy"
+					/>
 				</picture>
 			</article>
 			<article class="grid grid-1x2 feature">
@@ -174,7 +190,14 @@
 				<picture>
 					<source type="image/webp" srcset="images/fast.webp 1x, images/fast@2x.webp 2x" />
 					<source type="image/png" srcset="images/fast.png 1x, images/fast@2x.png 2x" />
-					<img class="feature-image" src="images/fast@2x.png" alt="" />
+					<img
+						class="feature-image"
+						src="images/fast@2x.png"
+						width="1140"
+						height="733"
+						alt=""
+						loading="lazy"
+					/>
 				</picture>
 			</article>
 			<article class="grid grid-1x2 feature">
@@ -194,7 +217,14 @@
 				<picture>
 					<source type="image/webp" srcset="images/wordpress.webp 1x, images/wordpress@2x.webp 2x" />
 					<source type="image/png" srcset="images/wordpress.png 1x, images/wordpress@2x.png 2x" />
-					<img class="feature-image" src="images/wordpress@2x.png" alt="" />
+					<img
+						class="feature-image"
+						src="images/wordpress@2x.png"
+						width="1140"
+						height="688"
+						alt=""
+						loading="lazy"
+					/>
 				</picture>
 			</article>
 			<article class="grid grid-1x2 feature">
@@ -214,7 +244,14 @@
 				<picture data-aos="fade-right">
 					<source type="image/webp" srcset="images/support.webp 1x, images/support@2x.webp 2x" />
 					<source type="image/png" srcset="images/support.png 1x, images/support@2x.png 2x" />
-					<img class="feature-image" src="images/support@2x.png" alt="" />
+					<img
+						class="feature-image"
+						src="images/support@2x.png"
+						width="1140"
+						height="767"
+						alt=""
+						loading="lazy"
+					/>
 				</picture>
 			</article>
 		</section>
@@ -226,7 +263,7 @@
 				<picture class="block-showcase-image" data-aos="fade-right">
 					<source type="image/webp" srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x" />
 					<source type="image/png" srcset="images/ipad.png 1x, images/ipad@2x.png 2x" />
-					<img src="images/ipad@2x.png" alt="" />
+					<img src="images/ipad@2x.png" alt="" loading="lazy" />
 				</picture>
 				<ul class="list" data-aos="fade-up">
 					<li>
@@ -289,7 +326,7 @@
 				<div class="card testimonial">
 					<div class="grid grid-1x2">
 						<div class="testimonial-image">
-							<img src="images/testimonial.jpg" alt="A happy, smiling customer" />
+							<img src="images/testimonial.jpg" alt="A happy, smiling customer" loading="lazy" />
 							<span class="icon-container icon-container-accent">
 								<svg class="icon icon-white icon-small">
 									<use href="icons/sprite.svg#quotes"></use>
@@ -328,7 +365,7 @@
 						ducimus rerum sunt eius! Modi, maiores neque!
 					</p>
 				</div>
-				<a href="" class="btn btn-secondary btn-stretched">Get Started</a>
+				<a href="#" class="btn btn-secondary btn-stretched">Get Started</a>
 			</div>
 		</div>
 		<footer class="block block-dark footer">
@@ -394,7 +431,7 @@
 					</div>
 				</section>
 				<div class="footer-brand">
-					<img src="images/logo.svg" alt="" />
+					<img src="images/logo.svg" alt="" width="209" height="54" loading="lazy" />
 					<p class="footer-copyright">Copyright 2020 Mosh Hamedani</p>
 				</div>
 			</div>
